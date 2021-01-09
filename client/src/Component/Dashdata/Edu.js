@@ -9,7 +9,7 @@ const Edu = ({ education, deleteEdu }) => {
             <table>
                 <thead>
                     <tr>
-                        <th>Company</th>
+                        <th>College Name</th>
                         <th>Title</th>
                         <th>Action</th>
                     </tr>
