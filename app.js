@@ -1,0 +1,20 @@
+const express = require('express')
+const connectdb = require('./config/db')
+const app = express()
+const UserRoute = require('./routes/users')
+const PostRoute = require('./routes/posts')
+const AuthRoute = require('./routes/auth')
+const ProfileRoute = require('./routes/profile')
+connectdb()
+app.use(express.json({ extended: false }))
+app.get('/', (req, res) => {
+    res.send("DevConnector")
+})
+app.use('/api/users', UserRoute)
+app.use('/api/posts', PostRoute)
+app.use('/api/auth', AuthRoute)
+app.use('/api/profile', ProfileRoute)
+
+app.listen(2999, () => {
+    console.log("server is running")
+})

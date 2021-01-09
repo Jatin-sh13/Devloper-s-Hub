@@ -1,0 +1,404 @@
+.navbar {
+    background-color: #03001C;
+    padding: 17px;
+    box-shadow: -4px -17px 20px 8px #888888;
+}
+
+body {
+    background-color: #020014;
+}
+
+.devlogo {
+    width: 250px
+}
+
+.navbar-nav .nav-link {
+    margin-right: 40px;
+    padding: 6px;
+    width: 90px;
+    text-align: center;
+}
+.dev-para{
+    color:gray;
+}
+.navbar-nav .nav-link:hover {
+    border: 1px solid #FF4949;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+
+.devheading {
+    letter-spacing: 4px;
+    color: white;
+}
+
+.devcontainer {
+    margin-top: 10%;
+}
+
+.sign-btn {
+    color: white;
+    background-color: #FF4949;
+    width: 150px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sign-btn:hover {
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+
+.devImg {
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+    margin-top: 50px;
+}
+/*    sigUp*/
+.SignUp-Heading {
+    color: white
+}
+
+.SignUp-para {
+    color: gray;
+}
+
+.SignUp-Container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px
+}
+
+.SignUp-Container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Global-Input {
+    background-color: #03001C;
+    padding: 8px;
+    width: 120%;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: gray
+}
+
+.Global-Input:focus {
+    border: 1px solid #FF4949;
+    border-radius: 3px;
+    outline: inherit
+}
+
+.Global-label {
+    color: grey;
+    font-size: 18;
+    margin-top: 10px;
+}
+
+.SignUp-btn {
+    background-color: #FF4949;
+    width: 100%;
+    margin: 30px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.SignUp-btn:hover {
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+/* */
+/* Alert */
+.AlertContainer {
+    background-color: black;
+    position: fixed;
+    padding: 1px;
+    height: 29px;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.Alert-para {
+    color: white;
+    text-align: center;
+}
+/*  */
+/* loading styling */
+.loading-container {
+    width: 100%;
+    height: 10px;
+    border: 1px solid black
+}
+
+.loading {
+    animation-name: example;
+    animation-duration: 1s;
+    width: 0%;
+    height: 3px;
+    background-color:#FF4949;
+    margin-top: -20px;
+}
+.Dash_header{
+    color: white;
+}
+.dash_para{
+    color:grey;
+}
+.dash_btn{
+    background-color:#FF4949;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.dash_btn2{
+    background-color:#FF4949;
+    color: white;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+.dash_btn:hover{
+    color: white;
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+.dash_btn2:hover{
+    color: white;
+    box-shadow: 0px 0px 4px 1px #888888;
+}
+@keyframes example {
+    0% {
+        width: 25%;
+    }
+    50% {
+        width: 75%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+/* loading styling end */
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        margin-left: 13px;
+        margin-top: 20px;
+        padding: 6px;
+        text-align: left;
+        width: 90%;
+    }
+
+    .devImg {
+        display: none;
+    }
+     /* signup*/
+     .Global-Input {
+        width: 100%;
+    }
+
+    .SignUp-btn {
+        width: 80%;
+    }
+
+    .devlogo {
+        width: 200px;
+    }
+
+    .SignUp-Heading {
+        font-size: 29px;
+    }
+    .dash_btn2 {
+        background-color: #FF4949;
+        color: white;
+        padding: 10px;
+        padding-right: 1px;
+        padding-left: 1px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-right: 11px;
+        font-size: 13px;
+    }
+    th {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    /*  */
+}
+.dash_input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #03001C;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px #888888;
+}
+.dash_input::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+.dash_input:focus{
+    border: 1px solid #FF4949;
+    border-radius: 3px;
+    outline:inherit;
+}
+.socialMedia {
+    display: flex;
+    margin-top: 20px
+}
+
+.Media_input {
+    margin-left: 30px;
+    width: 50%;
+    height: 40px;
+    background-color: #03001C;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px #888888;
+}
+
+.iconspan {
+    font-size: 1.7em;
+    color: Tomato;
+}
+.Media_input:focus{
+    border: 1px solid #FF4949;
+    border-radius: 3px;
+    outline:inherit;
+}
+.Profile_header{
+color: white;
+}
+.Profile_para{
+    color: grey;
+}
+.Profile_btn{
+    background-color:#FF4949;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.labo{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+table {
+    width: 100%;
+    color: white;
+    background-color: #020014;
+    padding: 10px;
+}
+
+thead {
+    background-color: rgb(66, 64, 64);
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(66, 64, 64);
+}
+.Dev_img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.dev_con {
+    display: flex;
+}
+
+.dev_con2 {
+    margin: 30px;
+}
+.dev_body p {
+    color:grey;
+}
+.dev_body h2 {
+    color: white;
+}
+.dev_card{
+    background-color: #020014;
+    border: 1px solid #FF4949;
+    box-shadow: 0px 0px 2px 1px #888888;
+}
+@media (max-width: 575.98px) {
+    .dev_con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dev_body {
+        text-align: center;
+    }
+    .Dev_img {
+        width: 200px;
+        height: 200px;
+    }
+}
+.pro_img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 6px 1px #888888;
+    border: 5px solid #FF4949;
+}
+
+.Pro_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_con {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Pro_icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Pro_icon_in {
+    margin: 10px;
+}
+
+.pro_link {
+    color:#FF4949;
+}
+
+.pro_link:hover {
+    color: white
+}
+span.Skill_Set {
+    margin: 10px;
+}
+.Pro_card{
+    background-color: #020014;
+    box-shadow: 0px 0px 6px 1px #888888; 
+}
+.Pro_body{
+    color: white;
+}
